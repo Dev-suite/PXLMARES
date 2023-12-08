@@ -16,7 +16,7 @@ body {
     line-height: 13.97px;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: white;
 }
 
@@ -39,7 +39,7 @@ body {
     margin: 20px;
 }
 
-.small-icon img{
+.small-icon img {
     margin-left: 110px;
 }
 
@@ -54,16 +54,89 @@ body {
     flex-direction: column;
 }
 
-.home img{
+.home img {
     width: 430px !important;
     margin: auto;
 }
 
-.img1{
+.img1 {
     margin-top: 100px !important;
 }
 
-@media only screen and (max-width: 765px){
+.reveal-image {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    /* Adjust the transition duration as needed */
+}
+
+theme-light {
+    background-color: #F5F5F5;
+    color: #F0720C;
+}
+
+.theme-dark {
+    background-color: #C53E4F;
+    color: #fff;
+}
+
+.theme-colorful {
+    background-color: #8851E3;
+    color: #4f3949;
+}
+
+.theme-contrast {
+    background-color: #1B244F;
+    color: #1B244F;
+    /* gold/yellow */
+}
+
+a {
+    text-decoration: none;
+    color: #3C3C3B;
+}
+
+.theme-toggle-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.home h2 {
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(240, 114, 12, 0.502);
+    display: flex;
+    justify-content: center;
+}
+
+.home p {
+    text-align: center;
+    width: 90%;
+    margin-top: 45px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 19.62px;
+}
+
+.content {
+    padding: 20px;
+}
+
+#toggleThemeButton {
+    cursor: pointer;
+}
+
+.reveal-image.revealed {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 765px) {
     .navigation li {
         margin-right: 0px !important;
     }
@@ -71,8 +144,8 @@ body {
     .adjust {
         margin-left: -0px !important;
     }
-    
-    .small-icon img{
+
+    .small-icon img {
         margin-left: 0px !important;
     }
 
@@ -80,12 +153,12 @@ body {
         margin-left: 0px !important;
     }
 
-    .home img{
+    .home img {
         width: 400px !important;
         width: 300px !important;
     }
-    
-    .img1{
+
+    .img1 {
         margin-top: 100px !important;
     }
 }
