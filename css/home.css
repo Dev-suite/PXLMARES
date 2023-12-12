@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Minecraft', sans-serif;
+    font-family: 'Audiowide', sans-serif;
     background-color: black;
 }
 
@@ -8,9 +8,13 @@ body {
     margin-right: 100px;
 }
 
+.myn {
+    border-bottom: 3px solid #ffffff80;
+}
+
 .nav-item a {
     text-decoration: none;
-    color: #404040;
+    color: #FFFFFF80;
     font-weight: 400;
     font-size: 14px;
     line-height: 13.97px;
@@ -23,20 +27,22 @@ body {
 .connect-button a {
     padding: 10px 40px;
     background-color: transparent;
-    color: #333;
+    color: #FFFFFF80;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid #404040;
     font-weight: bold;
-    margin-left: 150px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.65px;
 }
 
 .adjust {
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .adjust li {
-    margin: 20px;
+    margin: 25px;
+    text-transform: capitalize;
 }
 
 .small-icon img {
@@ -55,7 +61,7 @@ body {
 }
 
 .home img {
-    width: 430px !important;
+    width: 500px !important;
     margin: auto;
 }
 
@@ -78,7 +84,7 @@ theme-light {
 
 .theme-dark {
     background-color: #C53E4F;
-    color: #fff;
+    color: #FFFFFFB2;
 }
 
 .theme-colorful {
@@ -160,10 +166,11 @@ a {
 
     .connect-button a {
         margin-left: 0px !important;
+        margin: 0px !important;
+        padding-left: 25px !important;
     }
 
     .home img {
-        width: 400px !important;
         width: 300px !important;
     }
 
